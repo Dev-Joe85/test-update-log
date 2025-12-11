@@ -1,0 +1,20 @@
+{
+  "version": "1.4.2",
+  "lastUpdated": "2025-12-11",
+  "sections": [
+    {
+      "title": "New",
+      "items": [
+        "Added Ranked mode",
+        "New map: Rustyard"
+      ]
+    },
+    {
+      "title": "Fixes",
+      "items": [
+        "Fixed shop opening twice",
+        "Reduced lag spikes in rounds"
+      ]
+    }
+  ]
+}
