@@ -5,18 +5,82 @@
     {
       "title": "New",
       "items": [
-        "Added Ranked mode",
-        "New map: Rustyard",
-        "FS won't be available untill next update :("
+        "Added Ranked mode with seasonal resets and visible MMR",
+        "New competitive leaderboard that updates every 5 minutes",
+        "New map: Rustyard (industrial theme with dynamic lighting)",
+        "Added pre-match warmup phase in public servers",
+        "New lobby music track (temporary placeholder)",
+        "Added detailed end-of-round statistics screen",
+        "Players can now inspect other players’ loadouts in lobby",
+        "FS won't be available until next update :(",
+        "New experimental matchmaking logic enabled for 10% of servers",
+        "Added in-game patch notes viewer (this screen)"
       ]
     },
     {
       "title": "Fixes",
       "items": [
-        "Fixed shop opening twice",
-        "Reduced lag spikes in rounds"
+        "Fixed shop opening twice when interacting quickly",
+        "Fixed rare case where UI would duplicate on respawn",
+        "Fixed lag spikes caused by excessive Tween creation",
+        "Fixed memory leak related to uncleaned connections",
+        "Resolved issue where characters could clip through doors",
+        "Fixed incorrect hit detection on sloped surfaces",
+        "Fixed broken animations when joining mid-round",
+        "Patched server error spam related to nil humanoids",
+        "Fixed leaderboard not updating after round end",
+        "Resolved rare crash when loading large maps"
+      ]
+    },
+    {
+      "title": "Changes",
+      "items": [
+        "Adjusted movement speed for better consistency across devices",
+        "Rebalanced stamina drain to discourage infinite sprinting",
+        "Reduced round start delay from 10s to 6s",
+        "Increased server cleanup frequency to improve performance",
+        "Updated UI font sizes for better readability",
+        "Improved camera smoothing when spectating",
+        "Reworked interaction prompts to be more responsive",
+        "Adjusted audio levels to reduce clipping",
+        "Changed default FOV slightly to reduce motion sickness"
+      ]
+    },
+    {
+      "title": "Known Issues",
+      "items": [
+        "Some cosmetics may not load correctly on first join",
+        "Occasional delay when opening menus on low-end devices",
+        "Rare desync issues in high-ping servers",
+        "Spectator camera may briefly snap on round transition",
+        "Lighting may flicker on older GPUs",
+        "Certain animations may fail to preload on first join",
+        "FS features are disabled until the next major update"
+      ]
+    },
+    {
+      "title": "Experimental",
+      "items": [
+        "Testing new server-side caching system",
+        "Evaluating alternative replication strategy for abilities",
+        "Early groundwork for future mod support",
+        "Testing UI virtualization for large lists",
+        "Internal rewrite of round flow logic (not fully enabled)",
+        "Collecting performance metrics for next optimization pass",
+        "Experimental anti-exploit checks (false positives possible)"
+      ]
+    },
+    {
+      "title": "Developer Notes",
+      "items": [
+        "This update focuses on stability and infrastructure",
+        "Large content drops are planned for future releases",
+        "Ranked mode will receive frequent balance updates",
+        "Some systems are intentionally overbuilt for future features",
+        "Feedback from recent playtests heavily influenced this patch",
+        "Expect more frequent hotfixes moving forward",
+        "Thank you for testing and reporting issues"
       ]
     }
   ]
 }
-
