@@ -1,85 +1,91 @@
 {
-  "version": "1.4.2",
-  "lastUpdated": "2025-12-11",
+  "version": "1.4.3",
+  "lastUpdated": "2025-12-12",
   "sections": [
     {
       "title": "New",
+      "image": "rbxassetid://6319951718",
       "items": [
-        "Added Ranked mode with seasonal resets and visible MMR",
-        "New competitive leaderboard that updates every 5 minutes",
-        "New map: Rustyard (industrial theme with dynamic lighting)",
-        "Added pre-match warmup phase in public servers",
-        "New lobby music track (temporary placeholder)",
-        "Added detailed end-of-round statistics screen",
-        "Players can now inspect other players’ loadouts in lobby",
-        "FS won't be available until next update :(",
-        "New experimental matchmaking logic enabled for 10% of servers",
-        "Added in-game patch notes viewer (this screen)"
+        "Added Ranked mode with visible MMR and seasonal resets",
+        "New competitive leaderboard that updates automatically",
+        "New map: Rustyard (industrial setting with tight corridors)",
+        "Added end-of-round performance breakdown",
+        "New lobby ambience and placeholder music track",
+        "Players can now preview other players’ loadouts in lobby",
+        "Added in-game update log viewer (this UI)",
+        "FS will not be available until the next update",
+        "Experimental matchmaking enabled on a subset of servers",
+        "Warmup phase added before rounds begin"
       ]
     },
     {
       "title": "Fixes",
+      "image": "rbxassetid://119923723046976",
       "items": [
-        "Fixed shop opening twice when interacting quickly",
-        "Fixed rare case where UI would duplicate on respawn",
+        "Fixed shop UI opening multiple times when clicked rapidly",
+        "Resolved UI duplication when respawning",
         "Fixed lag spikes caused by excessive Tween creation",
-        "Fixed memory leak related to uncleaned connections",
-        "Resolved issue where characters could clip through doors",
-        "Fixed incorrect hit detection on sloped surfaces",
-        "Fixed broken animations when joining mid-round",
-        "Patched server error spam related to nil humanoids",
-        "Fixed leaderboard not updating after round end",
-        "Resolved rare crash when loading large maps"
+        "Patched memory leaks from uncleaned RBXScriptConnections",
+        "Fixed players clipping through doors in rare cases",
+        "Fixed hit detection inconsistencies on sloped surfaces",
+        "Resolved animation desync when joining mid-round",
+        "Fixed leaderboard not refreshing after match end",
+        "Patched server errors caused by nil humanoids",
+        "Resolved rare crash during large map loads"
       ]
     },
     {
       "title": "Changes",
+      "image": "rbxassetid://115815409567578",
       "items": [
-        "Adjusted movement speed for better consistency across devices",
+        "Adjusted default movement speed for consistency",
         "Rebalanced stamina drain to discourage infinite sprinting",
-        "Reduced round start delay from 10s to 6s",
-        "Increased server cleanup frequency to improve performance",
-        "Updated UI font sizes for better readability",
-        "Improved camera smoothing when spectating",
-        "Reworked interaction prompts to be more responsive",
-        "Adjusted audio levels to reduce clipping",
-        "Changed default FOV slightly to reduce motion sickness"
+        "Reduced round start delay from 10 seconds to 6 seconds",
+        "Improved server cleanup intervals for better performance",
+        "Updated UI spacing and font scaling",
+        "Improved camera smoothing while spectating",
+        "Reworked interaction prompts for faster response",
+        "Adjusted audio levels to reduce distortion",
+        "Minor FOV adjustment to reduce motion sickness"
       ]
     },
     {
       "title": "Known Issues",
+      "image": "rbxassetid://85839013348901",
       "items": [
         "Some cosmetics may not load correctly on first join",
         "Occasional delay when opening menus on low-end devices",
-        "Rare desync issues in high-ping servers",
-        "Spectator camera may briefly snap on round transition",
-        "Lighting may flicker on older GPUs",
-        "Certain animations may fail to preload on first join",
-        "FS features are disabled until the next major update"
+        "Rare desync in high-latency servers",
+        "Spectator camera may snap briefly on transitions",
+        "Lighting flicker may occur on older GPUs",
+        "Certain animations may fail to preload",
+        "FS-related features are disabled until next major update"
       ]
     },
     {
       "title": "Experimental",
+      "image": "rbxassetid://8508980536",
       "items": [
         "Testing new server-side caching system",
-        "Evaluating alternative replication strategy for abilities",
+        "Evaluating alternative replication strategies",
         "Early groundwork for future mod support",
         "Testing UI virtualization for large lists",
-        "Internal rewrite of round flow logic (not fully enabled)",
-        "Collecting performance metrics for next optimization pass",
+        "Internal rewrite of round flow logic",
+        "Collecting performance metrics for optimization",
         "Experimental anti-exploit checks (false positives possible)"
       ]
     },
     {
       "title": "Developer Notes",
+      "image": "rbxassetid://649424992",
       "items": [
-        "This update focuses on stability and infrastructure",
-        "Large content drops are planned for future releases",
-        "Ranked mode will receive frequent balance updates",
+        "This update focuses heavily on stability and infrastructure",
+        "Major content drops are planned for future updates",
+        "Ranked mode will receive frequent balance adjustments",
         "Some systems are intentionally overbuilt for future features",
-        "Feedback from recent playtests heavily influenced this patch",
-        "Expect more frequent hotfixes moving forward",
-        "Thank you for testing and reporting issues"
+        "Recent playtest feedback directly influenced this patch",
+        "Expect smaller but more frequent hotfixes",
+        "Thanks for testing and reporting issues"
       ]
     }
   ]
